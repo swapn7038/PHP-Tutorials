@@ -1,0 +1,7 @@
+<?php
+// array_splice() 
+
+
+
+
+?>
