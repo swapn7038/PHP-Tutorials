@@ -1,8 +1,11 @@
 <?php
 session_start();
 
+// Remember one thing, if you want to do any work related to session, 
+// you have to use these function at the top of file. 
+
 echo "<pre>";
-// print_r($_SESSION);
+print_r($_SESSION);
 echo "</pre>";
 ?>
 
@@ -17,10 +20,10 @@ echo "</pre>";
 <body>
     <?php
 
-    // echo "Favorite Color : " . $_SESSION["favcolor"];
-    if(isset($_SESSION["favcolor"])){
-    echo "My name isv" . $_SESSION["firstName"] .  $_SESSION["lastName"] . " and I like  " .  $_SESSION["favcolor"] .  "Color"; 
-    }
+    echo "Favorite Color : " . $_SESSION["favcolor"];
+    // if(isset($_SESSION["favcolor"])){
+    // echo "My name isv" . $_SESSION["firstName"] .  $_SESSION["lastName"] . " and I like  " .  $_SESSION["favcolor"] .  "Color"; 
+    // }
     ?>
 </body>
 </html>

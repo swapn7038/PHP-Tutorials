@@ -1,8 +1,8 @@
 <?php 
-$_cookie_name = "User";
-$_cookie_value = "Swapnil Shelke";
+$cookie_name = "User";
+$cookie_value = "Swapnil Shelke";
 
-setcookie($_cookie_name, $_cookie_value, time() + (86400 * 30), "/");
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
 
 ?>
 
@@ -11,12 +11,12 @@ setcookie($_cookie_name, $_cookie_value, time() + (86400 * 30), "/");
 
   <?php
 
-  if(!isset($_COOKIE[$_cookie_name])) {
+  if(!isset($_COOKIE[$cookie_name])) {
   echo "Cookie is not set";
   }else {
-    echo $_COOKIE[$_cookie_name];
+    echo $_COOKIE[$cookie_name];
   }
-
+  
 
   ?>
   </body>

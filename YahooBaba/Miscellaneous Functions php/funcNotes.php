@@ -30,6 +30,8 @@
 // 1. Create cookies => setcookie(name, value, expire, path, domain, secure, httponly);
 // 2. View cookie value => $_COOKIE[name]
 
+// Cookies are temporary information in visitors computer. 
+
 
 // $_SESSION
 
@@ -41,7 +43,7 @@
 
 
 // Delete Session
-// Step 1 : session_unset();
+// Step 1 : session_unset(); // Remove all session variables
 // Step 2 : session_destroy();
 
 ?>
