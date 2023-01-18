@@ -27,4 +27,5 @@ PHP is interpreted server-side scripting language.
 Means we write php code, upload it to a web server, and execute it with an intepreter. 
 
 
+Learn everything with in depth analysis. 
 
