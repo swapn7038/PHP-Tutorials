@@ -325,8 +325,74 @@ SELECT Data with LIKE Operator.
 
 Syntax ->
 
-1.
+1. ->
+   SELECT col1, col2, col3, ...
+   FROM tble_name
+   WHERE column_name LIKE pattern;
+
+2. ->
+   SELECT col1, col2, col3, ...
+   FROM table_name
+   WHERE column_name NOT LIKE pattern;
+
+Example ->
+
+1. ->
+   SELECT \* FROM personal
+   WHERE name LIKE "s%";
+
+Names starting from "s" will be printed.
+
+2. ->
+   SELECT \* FROM personal
+   WHERE name LIKE "a%";
+
+Names starting from "a" will be printed.
+
+3. ->
+   SELECT \* FROM personal
+   WHERE name LIKE "ram%";
+
+Names with "ram" will be printed.
+
+4. ->
+   SELECT \* FROM personal
+   WHERE name LIKE "%am%";
+
+These will print names containing rm anywhere in the word.
+
+5. ->
+   SELECT \* FROM personal
+   WHERE name LIKE "r%" OR name LIKE "s%";
+
+These will print names starting from r and s.
+
+6. ->
+   SELECT \* FROM personal
+   WHERE name NOT LIKE "r%" OR name LIKE "s%";
+
+These will print names which does not contain r and s.
+
+7. ->
+   SELECT \* FROM personal
+   WHERE BINARY name LIKE "r%";
+
+These is case sensitive.
+Only show result if the name starts from small r.
+These will print names which.
+
+8. ->
+   SELECT \* FROM personal
+   WHERE name LIKE "%r";
+
+Show result if name ends with small r.
+
+## Learn MySQL 12 : MySQL Regular Expression
+
+---
+
+## Progress
 
 28-01-23
 (Yahoo Baba -> Learn MySQL -> Youtube )
-Lectures complete 4, 5, 6, 7, 8, 9, 10, 11
+Lectures complete 4, 5, 6, 7, 8, 9, 10, 11, 12
