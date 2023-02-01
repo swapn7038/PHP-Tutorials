@@ -69,7 +69,6 @@ Date & Time Datatypes
 4. time(fsp) hh:mm:ss
 5. year four-digit format: 1901
 
-
 ## Learn MySQL 4 : INSERT
 
 Syntax ->
@@ -460,6 +459,18 @@ These will print names which.
 Show result if name ends with small r.
 
 ## Learn MySQL 12 : MySQL Regular Expression
+
+## ![alt text](../Image%2Bnotes/Reg%20Ex-1.jpeg)
+
+## ![alt text](../Image%2Bnotes/Reg%20Ex-2.jpeg)
+
+## ![alt text](../Image%2Bnotes/Reg%20Ex-3.jpeg)
+
+## ![alt text](../Image%2Bnotes/Reg%20Ex-4.jpeg)
+
+## ![alt text](../Image%2Bnotes/Reg%20Ex-5.jpeg)
+
+## ![alt text](../Image%2Bnotes/Reg%20Ex-6.jpeg)
 
 ## Add images here from phone, written in book.
 
