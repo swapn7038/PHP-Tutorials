@@ -474,6 +474,58 @@ Show result if name ends with small r.
 
 ## Add images here from phone, written in book.
 
+## Learn MySQL 13 : MySQL Order By & Distinct
+
+## Learn MySQL 14 : IS NULL / IS NOT NULL
+
+## Learn MySQL 15 : LIMIT & OFFSET
+
+## Learn MySQL 16 : COUNT, SUM, AVERAGE, MIN MAX
+
+## Learn MySQL 17 : UPDATE
+
+## Learn MySQL 18 : COMMIT & ROLLEBACK
+
+## Learn MySQL 19 : DELETE
+
+## Learn MySQL 20 : PRIMARY KEY & FOREIGN KEY
+
+## Learn MySQL 21 : INNER JOIN
+
+## Learn MySQL 22 : LEFT JOIN & RIGHT JOIN
+
+## Learn MySQL 23 : CROSS JOIN
+
+## Learn MySQL 24 : JOIN MULTIPLE TABLES
+
+## Learn MySQL 25 : GROUP BY & HAVING
+
+## Learn MySQL 26 : Subquery with EXIST & NOT EXIST
+
+## Learn MySQL 27 : UNION & UNION ALL
+
+## Learn MySQL 28 : IF & CASE STATEMENTS
+
+## Learn MySQL 29 : ARITHEMATIC FUNCTIONS
+
+## Learn MySQL 30 : STRING FUNCTIONS
+
+## Learn MySQL 31 : STRING FUNCTION-2
+
+## Learn MySQL 32 : DATE FUNCTIONS
+
+## Learn MySQL 33 : DATE FUNCTIONS-2
+
+## Learn MySQL 34 : TIME FUNCTION
+
+## Learn MySQL 35 : ALTER
+
+## Learn MySQL 36 : DROP & TRUNCATE
+
+## Learn MySQL 37 : VIEW
+
+## Learn MySQL 38 : INDEXES
+
 ## Progress
 
 28-01-23
