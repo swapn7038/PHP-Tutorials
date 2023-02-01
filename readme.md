@@ -4,4 +4,8 @@ ctrl + f5 to remove all caching of form
 
 101 video completed.
 
+Completef half of mySql videos.
+
+Started news website project.
+
 This is updated
