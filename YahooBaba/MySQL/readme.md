@@ -472,11 +472,13 @@ Show result if name ends with small r.
 
 ## ![alt text](../Image%2Bnotes/Reg%20Ex-6.jpeg)
 
-## Add images here from phone, written in book.
-
 ## Learn MySQL 13 : MySQL Order By & Distinct
 
 ## Learn MySQL 14 : IS NULL / IS NOT NULL
+
+## ![alt text](../Image%2Bnotes/14/11-1.jpeg)
+
+## ![alt text](../Image%2Bnotes/14/11-2.jpeg)
 
 ## Learn MySQL 15 : LIMIT & OFFSET
 
