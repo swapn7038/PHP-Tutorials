@@ -490,6 +490,18 @@ Watch this lec again...........................................................
 
 ## Learn MySQL 18 : COMMIT & ROLLEBACK
 
+( I added 4 lectures images here at one point. 15, 16, 17, 18 )
+
+![alt text](../Image%2Bnotes/15-1.jpeg)
+![alt text](../Image%2Bnotes/15-2.jpeg)
+![alt text](../Image%2Bnotes/16-1.jpeg)
+![alt text](../Image%2Bnotes/16-2.jpeg)
+![alt text](../Image%2Bnotes/16-3.jpeg)
+![alt text](../Image%2Bnotes/17-1.jpeg)
+![alt text](../Image%2Bnotes/17-2.jpeg)
+![alt text](../Image%2Bnotes/18-1.jpeg)
+![alt text](../Image%2Bnotes/18-2.jpeg)
+
 ## Learn MySQL 19 : DELETE
 
 ## Learn MySQL 20 : PRIMARY KEY & FOREIGN KEY
