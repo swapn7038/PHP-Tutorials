@@ -14,3 +14,9 @@ What we will learn in this project
 • How to Upload Images on Server & Database
 • How to Search on Website
 • How to Paginate the pages
+
+News Website : Database Design
+
+1. User table
+2. Category Table
+3. Post Table
