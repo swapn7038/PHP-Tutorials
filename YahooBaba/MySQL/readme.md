@@ -460,25 +460,27 @@ Show result if name ends with small r.
 
 ## Learn MySQL 12 : MySQL Regular Expression
 
-## ![alt text](../Image%2Bnotes/Reg%20Ex-1.jpeg)
+![alt text](../Image%2Bnotes/Reg%20Ex-1.jpeg)
 
-## ![alt text](../Image%2Bnotes/Reg%20Ex-2.jpeg)
+![alt text](../Image%2Bnotes/Reg%20Ex-2.jpeg)
 
-## ![alt text](../Image%2Bnotes/Reg%20Ex-3.jpeg)
+![alt text](../Image%2Bnotes/Reg%20Ex-3.jpeg)
 
-## ![alt text](../Image%2Bnotes/Reg%20Ex-4.jpeg)
+![alt text](../Image%2Bnotes/Reg%20Ex-4.jpeg)
 
-## ![alt text](../Image%2Bnotes/Reg%20Ex-5.jpeg)
+![alt text](../Image%2Bnotes/Reg%20Ex-5.jpeg)
 
-## ![alt text](../Image%2Bnotes/Reg%20Ex-6.jpeg)
+![alt text](../Image%2Bnotes/Reg%20Ex-6.jpeg)
 
 ## Learn MySQL 13 : MySQL Order By & Distinct
 
+Watch this lec again...........................................................
+
 ## Learn MySQL 14 : IS NULL / IS NOT NULL
 
-## ![alt text](../Image%2Bnotes/14/11-1.jpeg)
+![alt text](../Image%2Bnotes/14/11-1.jpeg)
 
-## ![alt text](../Image%2Bnotes/14/11-2.jpeg)
+![alt text](../Image%2Bnotes/14/11-2.jpeg)
 
 ## Learn MySQL 15 : LIMIT & OFFSET
 
