@@ -3,7 +3,7 @@
 <div id="main-content">
     <h2>Update Record</h2>
 
-
+    
     <?php
 
         $conn = mysqli_connect("localhost", "root", "", "crud") or die();

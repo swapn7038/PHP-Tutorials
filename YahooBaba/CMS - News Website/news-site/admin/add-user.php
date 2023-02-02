@@ -5,7 +5,7 @@ if($_SESSION["user_role"] == '0'){
 if(isset($_POST['save'])){
   include "config.php";
 
-  $fname =mysqli_real_escape_string($conn,$_POST['fname']);
+  $fname = mysqli_real_escape_string($conn,$_POST['fname']);
   $lname = mysqli_real_escape_string($conn,$_POST['lname']);
   $user = mysqli_real_escape_string($conn,$_POST['user']);
   $password = mysqli_real_escape_string($conn,md5($_POST['password']));

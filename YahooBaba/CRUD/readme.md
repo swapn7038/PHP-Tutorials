@@ -76,9 +76,11 @@ Pehle db connection, uske baad sql ki query, is baar ab query me update query li
 Aaur last step me db close kr denge.
 
 CRUD Lec 4 -> Yahoo Baba -> Update Data
-
-
 I completed 4 lectures of CRUD, but the last part is not working...
+
+CRUD Lec 5 -> Yahoo Baba -> Delete Data
+
+Now I am not able to see output from echo statement.
 
 ---
 
