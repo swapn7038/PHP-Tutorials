@@ -69,9 +69,18 @@ PHP & MySQL ke andar kaam karne ke liye hamare paas 3 alag alag method hote he.
 
 ---
 
-While using database, dont make any mistake. If you keep db half completed them it will not open another time.
+CRUD Lec 3 -> Yahoo Baba -> Update Data
+
+Data ko update karne ke liye bhi hame wahi 3 steps follow karne he.
+Pehle db connection, uske baad sql ki query, is baar ab query me update query likhenge.
+Aaur last step me db close kr denge.
+
+CRUD Lec 4 -> Yahoo Baba -> Update Data
 
 ---
+
+Small note =>
+While using database, dont make any mistake. If you keep db half completed them it will not open another time.
 
 Why I am learning this things.
 => In future I can earn money from these skills. Can get job, and its also a fun to learn this things.
