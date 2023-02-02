@@ -2,6 +2,21 @@
 
 <div id="main-content">
     <h2>Update Record</h2>
+
+
+    <?php
+
+        $conn = mysqli_connect("localhost", "root", "", "crud") or die();
+
+        $sql = "SELECT * FROM student JOIN studentclass WHERE student.sclass = studentclass.cid";
+
+        $result = mysqli_query($conn, $sql) or die("Query unsuccesful");
+
+        // if(mysqli_num_rows($result) > 0) { 
+
+
+
+?>
     <form class="post-form" action="updatedata.php" method="post">
       <div class="form-group">
           <label>Name</label>

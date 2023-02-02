@@ -6,6 +6,7 @@ Jab bhi ham php ke saath db pe kam karte he, to badicall hum 4 kam karte he.
 DB ke andar ham data ko create kr sakte he, uske andar ham sql ki INSERT command ka use kr sakte.
 DB me ham data ko read kr sakte, sql me hamare paas SELECT command hoti he data read karne ke liye.
 Ham data to update ya delete bhi kr sakte.
+Ya data ko update karna.
 
 Inho 4 operations ka first letter utha lo
 C => Create
@@ -67,3 +68,10 @@ PHP & MySQL ke andar kaam karne ke liye hamare paas 3 alag alag method hote he.
 3. PDO -> this is latest method, jo 2 methods upar diye he ye uknse advance or more secure he.
 
 ---
+
+While using database, dont make any mistake. If you keep db half completed them it will not open another time.
+
+---
+
+Why I am learning this things.
+=> In future I can earn money from these skills. Can get job, and its also a fun to learn this things.

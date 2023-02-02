@@ -3,7 +3,7 @@ First do the practical, watch video, do more practice,  then write it in notes.
 ctrl + f5 to remove all caching of form
 
 
-101 video completed. 
+More than 150 video completed. 
 
 
 ----------------------------
@@ -25,6 +25,8 @@ Some doubts
 
 PHP is interpreted server-side scripting language. 
 Means we write php code, upload it to a web server, and execute it with an intepreter. 
+
+Scope means working area. 
 
 
 Learn everything with in depth analysis. 

@@ -10,4 +10,4 @@ str_repeat() : repeats a string a specifies number of times
 
 str_replace() : replace some characters in a string (case sensitive)
 
-strtoupper() : convert a string to all upper case 
+strtoupper() : convert a string to all upper case

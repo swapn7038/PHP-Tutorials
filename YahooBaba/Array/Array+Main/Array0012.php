@@ -1,4 +1,5 @@
 <?php
+
 $array = array(
     array(
       'id' => 5698,
@@ -26,4 +27,14 @@ print_r($last_names);
 // Output
 // Array ( [0] => Griffin [1] => Smith [2] => Doe )
 
+?>
+
+
+<?php
+
+// Explanation
+
+// we took multidimensional array.
+
+// I dont understand array_column() here.
 ?>

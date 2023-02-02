@@ -542,8 +542,36 @@ Watch this lec again...........................................................
 
 ## Learn MySQL 38 : INDEXES
 
+What is index ?
+
+Db ke tables ke andar searching ko fasting karne ke liye, indexing ka use karte he ham.
+
+Index Command syntax ->
+CREATE INDEX index_name
+ON table_name(col1, col2, col3, ...);
+
+DROP COMMAND ->
+DROP INDEX index_name
+ON table_name;
+
+Guidelines of Index ->
+
+Automatically creates the indexes for PRIMARY KEY and UNIQUE columns.
+Index columns that you frequently use to retrieve the data.
+Index columns that are used for joins to improve join performance.
+Avoid columns that contain too many NULLvalues.
+Small tables do not require indexes.
+
 ## Progress
 
 28-01-23
 (Yahoo Baba -> Learn MySQL -> Youtube )
 Lectures complete 4, 5, 6, 7, 8, 9, 10, 11, 12
+
+Got bored don't know why.
+
+01-02-23
+( Yahoo Baba -> MySQL -> Youtube )
+Lecture watching 38,
+
+Download mySql workbench.

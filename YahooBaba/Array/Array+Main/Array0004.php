@@ -19,3 +19,11 @@ foreach($names as $k => $x_value) {
 // Key : Suraj, Value = 90
 
 ?>
+
+<?php
+
+// Explanation
+
+// Here we took associative array, and loop through it with the help of foreach loop.
+
+?>
