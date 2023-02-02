@@ -77,6 +77,9 @@ Aaur last step me db close kr denge.
 
 CRUD Lec 4 -> Yahoo Baba -> Update Data
 
+
+I completed 4 lectures of CRUD, but the last part is not working...
+
 ---
 
 Small note =>
