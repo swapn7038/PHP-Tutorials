@@ -1,0 +1,30 @@
+
+### Overriding Methods & Properties
+
+-> Ye concepts sare jagah par kam aate he.
+
+Overriding Properties ==>
+
+class A{
+public $name = "Some text";
+}
+
+class B extends class A{
+public $name = "Another Text";
+}
+
+Iith aapan same property $name la 2 veles value pass keli.
+
+Overriding methods ==>
+
+class A {
+public $name;
+public function show(){
+echo "My name" . $this->name;
+}
+}
+class B extends class A{
+public function show(){
+echo "Your Name" . $this->name;
+}
+}

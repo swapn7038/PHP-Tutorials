@@ -1,0 +1,20 @@
+<?php
+
+class fruits(){
+//   properties & methods
+}
+
+class vegetables extends fruits{
+//    properties & methods
+}
+
+$f = new fruits();
+
+$v = new vegetables();
+
+?>
+
+
+<?php
+// eka class chya properties kiva methods dusrya class madhe use karu shakto.
+?>

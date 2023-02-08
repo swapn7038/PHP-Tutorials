@@ -1,0 +1,2 @@
+Interfaces ka use security purpose ke liye liya jata he.
+Laravel aaur kafi sare mvc frameworks me Interfaces ka use kiya jata he.

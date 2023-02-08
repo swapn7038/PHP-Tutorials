@@ -1,0 +1,61 @@
+class A{
+    protected $name;
+    protected function __construct($n){
+        $this->name = $n;
+    }
+}
+
+$test = new A("Yahoo baba");
+
+---
+Varti jo kahi class dila ahe to normal class ahe.
+Jar aaplyala ekadhya class la asa banyacha ahe ki, tyacha koni object nahi banvu shakat.
+
+Tya sathi OOP madhe aaplyakad ek option asati ki, ek concept ahe, 
+ti manje Abstract class chi.
+
+Jar aapan ekedhya class la abstract banvale, tar aapan tya class chya properties ani methods 
+use nahi karu shakat.
+Jar tya methods ani properties aaplyala use karyachya astil tar aaplyala tya class cha derived class banvava 
+lagto, inheritance cha use karun.
+
+Kontya pan class la abstract class banyache asel tar fakt `abstract` keyword cha use 
+karava, tya particular class samor.
+
+---
+Jeva pan aapan ekadhya class la abstract class banvato, teva aaplyala 2 consition purn kara vya
+lagtat. 
+
+1. Pahili conditon hi ahe ki, jya class la aaplyala abstract ban vayche ahe 
+tya class madhe ek abstract method pahije.
+
+class A{
+    protected $name;
+    protected function __construct($n){
+        $this->name = $n;
+    }
+
+    abstract protected fnuction show();
+}
+
+class B extends class A{
+    public function show(){
+        echo $this->name;
+    }
+}
+
+
+
+---
+Varti aapan ek abstract function (method) banvala ahe, tyala aapan declare kel pan
+tyacha implementation nahi kel. tya class cha kam kay asel he aapan nahi lihil. 
+
+-
+
+2. ani tyacha implementation aapan derived class madhe karto. 
+
+---
+practical use of abstract class, suppose aapan ekadhya school kiva
+college chi website create karto aho, ani aaplyakad ase class astil ki 
+tya madhe personal information asnar ahe. Ex fees, marks etc...
+
