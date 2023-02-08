@@ -1,0 +1,43 @@
+suppose aaplyakad 3 class ahet php madhe, 3 classes madhe aaplyala ek common function/method
+banyacha ahe. 
+Manje 3 ni pan classes madhe aaplyala common functionalities pahije ahet. 
+
+Traditional way ha ahe ki 3ni pan classes madhe zaun eka eka function la create karu.
+Aapan asa hi Traditional method use karu shakato, pan tyane code chi size vadhal, ani
+pratek file madge zaun aaplyala code lihava lagal.
+Parat function madge kahi modification karyachi asel tar, pratek class madhe zaun changes karave lagtil.
+
+Yach ek solution ahe => aapan ek common function class chya baher create karu ani tyala 
+class madge use karu. 
+
+Tar he function baher create karnya sathi aaplyakad ek facility asti ==> Traits 
+
+Tar Traits ne basically aapan class chya baher ek function create karun
+tya function la class madhe use karu shakto.
+
+Mag kadhi modification karyachi asel tar tya eka function madhecha karavi lagel zo aaapan Trait madhe
+banvala hota.
+
+---
+
+Aata baghu Trait la kasa use karyacha te ==>
+
+-> program 
+
+trait className{
+    public function hello(){
+        echo "I am awesome";
+    }
+}
+
+class A{
+    use className;
+}
+
+class B{
+    use className;
+}
+
+$object = new A();
+$object -> hello();
+

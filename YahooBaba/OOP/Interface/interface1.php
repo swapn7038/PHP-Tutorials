@@ -1,8 +1,8 @@
 <?php
 
-interface parent1{
-    protected $a;
-}
+// interface parent1{
+//     protected $a;
+// }
 
 // protected is access mode.
 // Error : Interfaces may not include member variables

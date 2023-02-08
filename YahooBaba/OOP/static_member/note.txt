@@ -1,3 +1,25 @@
 Static Members
 
+Class madhe donach ghoshti yeu shaktat, properties ani method.
+
+Class madhlya properties kiva functions/methods use karyache astil tar,
+aaplyala tyacha object banvava lagto.
+
+Ani print karnyasathi function/method la call karav lagat. 
+
+php madhe jar aaplyala class madhale functions/methods ani properties use 
+karyachya astil tar oop madhe azun features astat.
+
+`static` keyword la zar aapan variable ani method cha samor 
+laval, tar aapan tyala bina object create karta use karu shakto.
+
+Syntax ->
+
+className::$variableName;
+className::$methodName();
+
+$this->  ==> represents object.
+
+aapan iith object create nahi kela manhun $this cha use nahi karu shakat. 
+$this chya zagi self:: cha use karav lagto.
 

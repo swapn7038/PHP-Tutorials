@@ -1,8 +1,11 @@
 <?php
 
-interface parent1{
-    protected function calc($a, $b);
-}
+// interface parent1{
+//     protected function calc($a, $b);
+// }
+
+
+// ----------
 
 // this will us an error
 // Access type for interface method parent1::calc() must be omitted
