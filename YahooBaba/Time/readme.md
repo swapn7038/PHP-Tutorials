@@ -6,6 +6,7 @@ List of all Time functions
 4. gmmktime()
 5. date_create()
 6. date_format()
+
 7. checkdate()
 8. date_diff()
 9. format()
