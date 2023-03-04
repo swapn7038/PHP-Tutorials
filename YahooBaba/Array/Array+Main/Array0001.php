@@ -11,10 +11,8 @@ echo "I have " . $cars[0] . " but I really like " . $cars[1] . " I hate cars " .
 <?php
 
 // Explanation
-
 // Here $cars is a variable. 
 // But it is a array, because we add square brackets, and gave values in them.
-
 // We can also access the values of an array.
 
 ?>
