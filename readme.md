@@ -21,14 +21,23 @@ One more thig, there are lecture / tutorial / website notes in this folder. Whil
 I dont understand many things, when I open this folder, the topic of array.
 
 ---
+
 config.php
--> What we were doing is that we was passig same code again & again. But what if we have to change the username, password or maybe server name. Then we have to go to every file & change the name, password & server name. 
-Solution to this problem is we can make one file named as congif.php, we will write common code here which we were using for db connection, query and connection close. 
+-> What we were doing is that we was passig same code again & again. But what if we have to change the username, password or maybe server name. Then we have to go to every file & change the name, password & server name.
+Solution to this problem is we can make one file named as congif.php, we will write common code here which we were using for db connection, query and connection close.
 config stands for configuration.
 
 ---
+
 I found great php extension in vs code => PHP Intelephense
-PHP Intelephense gives information about everything on hover. 
+PHP Intelephense gives information about everything on hover.
 
 ---
+
 Watch 5 lectures of an CRUD.
+
+--- 07-03-23
+Doubts
+
+1. session_start()
+2. mysqli_real_escape_string()
