@@ -1,0 +1,16 @@
+List of all Math function in php
+
+A. Function I had studied
+ 1. max()
+ 2. min()
+ 3. ceil()
+ 4. floor()
+ 5. round()
+ 6. abs()
+ 7. intdiv()
+ 8. pow()
+ 9. sqrt()
+ 10. rand()
+ 11. mt_rand()
+ 12. lcg_value()
+ 13. 

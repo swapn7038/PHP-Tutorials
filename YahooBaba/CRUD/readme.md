@@ -1,8 +1,8 @@
 # PHP CRUD (yahoo baba)
 
-## PHP MySQL CRUD - Read Data // Yahoo baba (youtube) // lec-1
+## PHP MySQL CRUD - Read Data // Yahoo baba - 105 (youtube) // lec-1
 
-Jab bhi ham php ke saath db pe kam karte he, to badicall hum 4 kam karte he.
+Jab bhi ham php ke saath db pe kam karte he, to basically hum 4 kam karte he.
 DB ke andar ham data ko create kr sakte he, uske andar ham sql ki INSERT command ka use kr sakte.
 DB me ham data ko read kr sakte, sql me hamare paas SELECT command hoti he data read karne ke liye.
 Ham data to update ya delete bhi kr sakte.
@@ -33,7 +33,7 @@ Matlab ham sirf `mysql_connect()` ko bhi use kr sakte, par problem ye he ki wo t
 
 Ab is function ke andar ham 4 parameters pass karenge.
 
-1st parameter is server name -> yaha par server ka nam, agar website lovally (apne system pe run kr rahe ho) to nam hoga localhost, aaur agar ham ise online server par run kr rahe to yaha pe aayeha website ka naam.
+1st parameter is server name -> yaha par server ka nam, agar website locally (apne system pe run kr rahe ho) to nam hoga localhost, aaur agar ham ise online server par run kr rahe to yaha pe aayeha website ka naam.
 
 2nd paramter is username.
 
@@ -69,7 +69,18 @@ PHP & MySQL ke andar kaam karne ke liye hamare paas 3 alag alag method hote he.
 
 ---
 
-CRUD Lec 3 -> Yahoo Baba -> Update Data
+Now we are in our project.
+Sabse pehla kaam ye he ki ham db se data fetch karke layenge.
+hamne crud nam ka db banaya. uske student nam ka table banaya.
+
+DB and tables ko create karne ke baad, ham coding start karenge.
+index.php me h2 ke niche ham coding start karenge.
+
+Pehla step is connection.
+
+### CRUD Lec 2 -> Yahoo Baba - 106 -> Update Data
+
+### CRUD Lec 3 -> Yahoo Baba - 107 -> Update Data
 
 Data ko update karne ke liye bhi hame wahi 3 steps follow karne he.
 Pehle db connection, uske baad sql ki query, is baar ab query me update query likhenge.

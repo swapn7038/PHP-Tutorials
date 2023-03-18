@@ -8,3 +8,11 @@ After watching half videos of Yahoo baba, I realized I was not taking notes in p
 I should have created separate folder for single program.
 
 So after that I created PHP+array+1 & PHP+array+2 for arrays.
+
+---
+
+#### List of all Array functions
+
+###### Functions I had written in notes
+
+1.
