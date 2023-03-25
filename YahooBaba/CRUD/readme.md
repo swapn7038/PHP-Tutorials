@@ -80,6 +80,32 @@ Pehla step is connection.
 
 ### CRUD Lec 2 -> Yahoo Baba - 106 -> Update Data
 
+106 tutorial,
+iss video me ham CRUD ke bare me sikhane wale he.
+CRUD se related hamare 2nd tutorial he.
+Basically, PHP ke form se db me values ko kaise save karte he, wo ham sikhane wale he.
+
+Pichele tutorial me hamne sikha ki CRUD ka matlab kya hota he.
+Basicallly, iska matlab ye hota he ki, db ke andar ham PHP se kuch kam karna chahte he to ham basically ham 4
+tarike ke kam karte he.
+To ham data ko create karenge.
+Read Karenge.
+Update karenge ya fir delete karenge.
+
+Pichali video me hamne data ko read karna sikha tha.
+Ki ham data ko kaise fetch karke late he, aaur PHP ke pages ke andar dikhate he.
+
+Iss video me basically, sikhane wale he ki, hum new form se data ko, DB me kaise save karte he.
+Yaha ham PHP ke saath MySQL use karenge.
+
+Iska practical shuru karne se pehle, me aapko firse bata deta hu ki, jo hamne pichali video me sikha tha
+Ki jabhi ham PHP ke saath MySQL ke andar kam karne chahte he, to waha par hame 3 steps follow karne padte he.
+Sabse pehla he connection, jisme ham connection banayenge.
+dusra he mysqli_query() function ka use, jo bhi query ham run karna chahte he, ussse ham iss function ki help se use
+karenge.
+
+Uske baad jab hamara sara kam ho jayega, to ham connection ko close karenge. Uske liye ham use karenge mysqli_close(Connection Name);
+
 ### CRUD Lec 3 -> Yahoo Baba - 107 -> Update Data
 
 Data ko update karne ke liye bhi hame wahi 3 steps follow karne he.
@@ -95,8 +121,15 @@ Now I am not able to see output from echo statement.
 
 ---
 
+Lectures Completed
+
+Lec - 1 -> Part-1 Video No. -> 105 => Completed ✔️
+Lec - 2 -> Part-2 Video No. -> 106 => Completed
+
+---
+
 Small note =>
 While using database, dont make any mistake. If you keep db half completed them it will not open another time.
 
 Why I am learning this things.
-=> In future I can earn money from these skills. Can get job, and its also a fun to learn this things.
+=> In future I can earn money from these skills. Can get job, and its also a fun to learn.

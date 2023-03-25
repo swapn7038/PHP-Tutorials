@@ -20,4 +20,8 @@ echo "</pre>";
 //     [suraj] => 90
 // )
 
+
+// Explanation
+// In array_change_key_case() function, second parameter is  CASE_LOWER or CASE_UPPER
+
 ?>

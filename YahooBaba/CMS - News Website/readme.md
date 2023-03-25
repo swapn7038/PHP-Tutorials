@@ -34,35 +34,36 @@ News Website : Database Design
 2. Category Table
 3. Post Table
 
-1. User table
--> user-id
--> first-name
--> last-name
--> user-name
--> password
--> role
+4. User table
+   -> user-id
+   -> first-name
+   -> last-name
+   -> user-name
+   -> password
+   -> role
 
-2. Category Table
--> category-id
--> category-name
--> post
+5. Category Table
+   -> category-id
+   -> category-name
+   -> post
 
-3. Post Table
--> post-id
--> post-title
--> post-description
--> post-date
--> post-image
--> category
--> author
+6. Post Table
+   -> post-id
+   -> post-title
+   -> post-description
+   -> post-date
+   -> post-image
+   -> category
+   -> author
 
 ---
+
 New things found in this project
 
 -> mysqli_connect_error
 -> mysqli_real_escape_string
 -> md5 & sha1
--> header function 
+-> header function
 
 Learn about how to create complex websites design, UML.
 

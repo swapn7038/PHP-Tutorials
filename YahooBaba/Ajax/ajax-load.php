@@ -1,7 +1,7 @@
 <?php
 
 $conn = mysqli_connect("localhost", "root", "", "test") or die("Connection failed");
-$sql = "SWLWCT * FROM students";
+$sql = "SELECT * FROM students";
 $result = mysqli_query($conn, $sql) or die("Sql query failed");
 
 $output = "";

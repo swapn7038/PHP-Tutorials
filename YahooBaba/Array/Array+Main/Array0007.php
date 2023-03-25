@@ -12,8 +12,7 @@ print_r(array_change_key_case($pets,CASE_UPPER));
 
 // Explanation 
 
-// we took array $pets named here. 
-
-// We can initialoze an array with square bracket or we can yse keyword array here. 
+// We took array $pets named here. 
+// We can initialize an array with square bracket or we can use keyword array here. 
 
 ?>

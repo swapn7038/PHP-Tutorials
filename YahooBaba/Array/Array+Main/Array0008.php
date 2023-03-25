@@ -2,9 +2,7 @@
 $cars = ["Volvo","BMW","Toyota","Honda","Mercedes","Opel"];
 
 echo "<pre>";
-
 print_r(array_chunk($cars, 3));
-
 echo "</pre>";
 
 

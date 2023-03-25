@@ -2,7 +2,7 @@ Complex validations
 
 1. filter_var(var, filtername, options.flag);
 
-filters ->
+filtername ->
 
 FILTER_VALIDATE_INT
 FILTER_VALIDATE_FLOAT
