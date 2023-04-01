@@ -23,6 +23,10 @@ Some doubts
 
 ---
 
+01-04-23
+
+Learn constructor
+
 PHP is interpreted server-side scripting language. 
 Means we write php code, upload it to a web server, and execute it with an intepreter. 
 
