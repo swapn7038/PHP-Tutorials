@@ -44,5 +44,8 @@ Doubts
 
 ---
 
+I user this command to install/clone this repository.
+git clone https://github.com/swapn7038/PHP-Tutorials.git
+
 Reference Links
 https://www.studentstutorial.com/php/google-map-dynamically.php
