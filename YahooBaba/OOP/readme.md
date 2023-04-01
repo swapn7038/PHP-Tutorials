@@ -1,4 +1,4 @@
-# OOP in PHP
+# OOP in PHP // Yahoo Baba
 
 I can write programs in vs code, and theory parts in book.
 
@@ -6,7 +6,31 @@ Write same code again & again, without looking at the code.
 
 ctrl + alt + down-key
 
-on 178 tutorial
+---
+
+OOP in PHP course Index / Videos's List
+
+168 -> PHP OOP Introduction
+
+169 -> OOP Constructor
+
+170 -> OOP Inheritance
+
+171 -> OOP Access
+
+172 -> OOP Overriding
+
+173 -> OOP Abstract Class
+
+174 -> OOP Interfaces
+
+175 -> OOP Static Members
+
+176 -> OOP Late Static Binding
+
+177 -> OOP Traits Method Overriding
+
+on 178 tutorial -> OOP Method Overriding
 
 179 -> Type Hunting
 
@@ -16,31 +40,31 @@ on 178 tutorial
 
 182 -> Magic Methods
 
-183 -> __destruct() Methods
+183 -> \_\_destruct() Methods
 
-184 -> __autoload Method
+184 -> \_\_autoload Method
 
-185 -> __get Method
+185 -> \_\_get Method
 
-186 -> __set Method
+186 -> \_\_set Method
 
-187 -> __call
+187 -> \_\_call
 
-188 -> __callStatic
+188 -> \_\_callStatic
 
-189 -> __isset
+189 -> \_\_isset
 
-190 -> __unset
+190 -> \_\_unset
 
-191 -> __toString
+191 -> \_\_toString
 
-192 -> __sleep 
+192 -> \_\_sleep
 
-193 -> __wakeup 
+193 -> \_\_wakeup
 
-194 -> __clone Method
+194 -> \_\_clone Method
 
-195 -> __invoke
+195 -> \_\_invoke
 
 196 -> Magical constants
 
@@ -48,7 +72,7 @@ on 178 tutorial
 
 198 -> Get Functions
 
-199 -> MySQLi OO Coding 
+199 -> MySQLi OO Coding
 
 200 -> CRUD Class
 
@@ -63,3 +87,8 @@ on 178 tutorial
 205 -> CRUD Class : pagination method
 
 206 -> CRUD Class : usage method
+
+---
+
+How to create snippets
+Go to setting -> User Snippets

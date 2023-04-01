@@ -8,6 +8,7 @@ class person{
     }
 }
 
+// Object created, named as $p1
 $p1 = new person();
 
 $p1->name = "Swapnil shelke";
@@ -33,5 +34,6 @@ $p1->show();
 // $p1->age ne tyala age chi value assign keli.
 
 // tya khali, $p1->show(); hya statement ne function la call kela.
+
 
 ?>
