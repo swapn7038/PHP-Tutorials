@@ -49,3 +49,9 @@ git clone https://github.com/swapn7038/PHP-Tutorials.git
 
 Reference Links
 https://www.studentstutorial.com/php/google-map-dynamically.php
+
+https://stackoverflow.com/questions/26825579/mysql-says-cannot-connect-invalid-settings
+https://stackoverflow.com/questions/18022809/how-to-solve-error-mysql-shutdown-unexpectedly
+
+If even after MySQL is working, from control panel, then also if phpMyAdmin is not working then visit this website ->
+https://tutorialdeep.com/knowhow/mysql-cannot-connect-invalid-settings-xamp/

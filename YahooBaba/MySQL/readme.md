@@ -220,8 +220,8 @@ WHERE Comparison Operators
 
 Example ->
 
-1.  SELECT \* FROM personal
-    WHERE gender = "F";
+1.  `SELECT * FROM personal
+WHERE gender = "F";`
 
 This will show data with only female gender.
 
@@ -250,6 +250,38 @@ WHERE city <> 'Agra';
 This will show data with exception of Agra, data which not have Agra in it.
 
 ## Learn MySQL 8 : MySQL AND, OR, NOT Operators
+
+Iss video me sql ke andar jo AND, OR and NOT operators hote he ham unko sikhane wale he.
+Pichale video me hamne sikha tha ki kaise ham SELECT command ke saath WHERE caluse ko use kr sakte he.
+Magar waha ham sirf ek hi condition ko use kar sakte the, agar ham multiple conditions lagana chahte he to uske saath and, or operator ka use kar sakte he.
+
+---
+
+Name | Age | Gender
+Ram Kumar | 19 | Male
+Salman Khan | 22 | Male
+Meera Khan | 21 | Female
+Sarita Sumari | 18 | Female
+Anil Kumar | 22 | Male
+
+Yaha pr ek example he student ke record ka, jisme se ham kuch aaisa record nikalna chahte he, jisme student ki age jo he, 18 se 21 ke bich me ho. Ya 18 ho ya 18 se jyada ya 21 ho ya 21 se kam.
+
+Agar uska ek record nikalenge, to uska ek aaisa table nikal ke aayega ->
+
+Ram Kumar | 19 | Male
+Meera Khan | 21 | Female
+Sarita Sumari | 18 | Female
+
+Ab aaisa record SQL se nikalne ke liye hame, query ke ndar do conditions lagane padenge.
+
+Ex 1:
+
+WHERE Age >= 18 AND Age <= 21
+
+AND ka matlab he, dono conditions true honi chaiye, tabhi record nikal ke aayega.
+
+Ex 2:
+Now fetch the record, whose
 
 SELECT with AND or OR Operator Syntax ->
 

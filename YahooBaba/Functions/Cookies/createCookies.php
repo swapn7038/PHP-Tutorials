@@ -1,8 +1,9 @@
 <?php 
-$cookie_name = "User";
-$cookie_value = "Swapnil Shelke";
+$cookie_name = 'User';
+$cookie_value = "Swapnil";
 
-setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+// setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+setcookie($cookie_name, $cookie_value);
 
 ?>
 
