@@ -1,5 +1,9 @@
 ## MySQL
 
+### Index of videos
+
+Video's list
+
 Installation Method 1:
 
 1.  Installing XAMP, WAMP, MAMP
@@ -534,11 +538,125 @@ Watch this lec again...........................................................
 ![alt text](../Image%2Bnotes/18-1.jpeg)
 ![alt text](../Image%2Bnotes/18-2.jpeg)
 
-## Learn MySQL 19 : DELETE
+## Learn MySQL 19 : DELETE ✔️✔️✔️
 
-## Learn MySQL 20 : PRIMARY KEY & FOREIGN KEY
+(Yahoo-baba)
+
+Jabhi hame kisi table se koi record delete karna hota he, to ham use karte he DELETE command ka.
+
+Syntax for delete command ->
+
+`DELETE FROM table_name WHERE consiton;`
+
+Ham isi command ko bina where caluse lagaye bina bhi likh sakte he.
+
+`DELETE FROM table_name;`
+
+Practically I did this ->
+
+`DELETE from employe where id = 2;`
+
+Command to delete all records above 20 age.
+
+`COMMIT;`
+`DELETE from employe where age > 20;`
+`ROLLBACK;`
+
+Agar ham yaha condition nahi lagate he, to sara ka sara data delete ho jata he...
+
+## Learn MySQL 20 : PRIMARY KEY & FOREIGN KEY ✔️✔️✔️
+
+List of constraints in MySQL
+
+• NOT NULL
+• UNIQUE
+• DEFAULT
+• CHECK
+• PRIMARY KEY
+• FOREIGN KEY
+
+Constraints ka matlab hota he restrictions, restrictions kispe -> table ke columns pe, ki usme konsa data aana chaiye aaur konsa data nahi aana chaiye...
+
+PRIMARY KEY & FOREIGN KEY restrictions ka bhi kam karte he...
+
+Agar ham kisi bhi column ko primary key set karte he, to ham usme sirf unique values hi pass kar sakte he...
+Agar ham kisi column me unique values pass karna chahte he, to ha, us column ko primary key pass kar sakte he..
+
+• Primary key always has unique data.
+Ham ye kam unique constant se bhi kar sakte he, par usme aaur primary key me ek difference hota he,
+UNIQUE me ham null value bhi store kar sakte he, par PRIMARY KEY me null value store nahi kar sakte.
+
+• A PRIMARY KEY cannot have null value.
+
+• A table can contain only one primary key.
+Ek table me sirf ham ek hi primary key set kar sakte he.
+
+UNIQUE constant ki tarah ham aaisa nahi kar sakte ki multiple tables ko UNIQUE constant de diya
+
+Create table with PRIMARY KEY Syntax
+
+CREATE TABLE table_name(
+id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(50) NOT NULL,
+age INT NOT NULL,
+city VARCHAR(10) NOT NULL,
+PRIMARY KEY(id)
+);
+
+Ye tarika ham tab use karenge jab, starting se table create kiya ho.
+
+Agar allready hamne koi table create kiya he to, usme kaise PRIMARY KEY lagani hoti he ab wo sikhange.
+Uske liye hame alter command use karni padti he.
+
+`ALTER TABLE table_name ADD PRIMARY KEY(id);`
+
+Alter matlab modification.
+(bracket ke andar us column ka name rahega, jise primary key deni hoti he)
+
+WHAT IS FOREIGN KEY Constraint ?
+
+• A FOREIGN KEY is a key used to link two tables together.
+Foreign key ka use ham tab karenge jab ham kisi table ko dusre table ke saath link karana chahte ho.
+
+• A foreign key in one table used to point PRIMARY KEY in another tabel.
+Yaha foreign key ki ek most important bat ye he ki, usme vahi value aati he, jo dusre table ki PRIMARY KEY ki value hoti he... Aaisa ham isi liye karte he taki ham do tables ko connect kar sake...
+
+Create Table with FOREIGN KEY Syntax ->
+
+CREATE TABLE student(
+id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(50) NOT NULL,
+age INT NIT NULL,
+city VARCHAR(10) NOT NULL,
+PRIMARY KEY(id),
+FOREIGN KEY(city) REFERENCE City (cid);
+);
+
+Ye he hamara tarika jab ham kisi table ko create karte he tab kisi table ko FOREIGN KEY set karana chahte he...
+
+Ab ham dekhenge ki hab hamare paas koi existing table he aaur uako FOREIGN KEY set karna he to...
+
+`ALTER TABLE table_name ADD FOREIGN KEY (city) REFERENCE City (cid);`
+
+Is command ka matlab he ki, ham table_name ke city column ko FOREIGN KEY de rahe he, aaur uska reference ke City table ka cid column...
+
+Study some more commands...
 
 ## Learn MySQL 21 : INNER JOIN
+
+MySQL ke andar hamare paas 4 tarike ke join's hote he.
+
+1. inner join
+2. left join
+3. right join
+4. cross join
+
+Iss video me ham inner join sikhenge.
+INNER JOIN aakhir hota kya he -> agar ham do tables ka data nikalna chahte he to ham use karte he inner join ko.
+
+To inner join ka matlab hi yahi hota he ki do tables ke andar jo data match hota he wo wala record nikal ke lana. The INNER JOIN selects records that have matching values in both tabels.
+
+[put the image here]
 
 ## Learn MySQL 22 : LEFT JOIN & RIGHT JOIN
 
@@ -607,3 +725,7 @@ Got bored don't know why.
 Lecture watching 38,
 
 Download mySql workbench.
+
+21-04-12
+( W3-schools -> SQL Tutorial and SQL Exercise )
+Yahoo Baba MySQL Series, video numbers 19, 20, 21, 22

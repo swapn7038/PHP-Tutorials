@@ -1,3 +1,44 @@
+### PHP Filter Validations Tutorials Yahoo Baba -> Video No. : 167
+
+Suppose hamare pas ek form he, usse ham user ka name, age, email and website ka url get karna chahte he.
+Aaise forms hamare websites me common hi hote he.
+Ham user se expect kar rahe hote he ki wo sahi information hi dalega, par aaisa hamesha nahi hota na...
+Kai bar user se jald-bazi me galti bhi ho sakti he, suppose usse age ke input box me integer value dalni thi par galti se usne float value dal di...
+Email ke input box me ho sakta he ki wo `.` ki jagah par / dal de...
+Website ke url me ho sakta he ki wo space dal de...
+
+To iss tarah ki mistakes jo he wo hoti rehti he. To jab ham form ko save karane lagte he db ke andar to usse pehle ham ise validate karne lagte he.
+
+Ab jaise ham name get kara rahe he wo ek string value he, age get kara rahe he wo ek integer value he. To iss tarah ki values ko check karne ke liye php ke andar allready kuch functions available he. Pichali video me bhi dekha tha, jaha hame is functions samje the, waha par hamne is_int, is_string functions bhi skihe the, jaha se ham integer value ko check kar sakte the.
+
+Magar jam ham bat kare email address ki, jab email address me koi galti ho jati he to usko validate karne me koi function nahi aata, us ke liye ham regular expression use kar sakte he, par wo kafi complex ho jate he.
+Jaisa upar hamne dekha ki website ke url me space aa jato he to, usko kaise ham check kr sakte he.
+
+To iss tarah ki jitni bhi complex validations hoti he, uske liye php me special functions aate he use ham kehte
+he filters...
+In filters ki help se jitni bhi complex validations hoti he unhe ham badi aasani se kar sakte he.
+
+To jabbhi php ke andar validations lagani hoti he, to ek function aata he hamare paas `filter_var()`
+`filter_var(variable,filtername, options/flag)`
+
+1st parameter -> variable, php form se ham jo bhi values get karenge, usse ham kisi na kisi variable me store karenge, ussi variable ko ham yaha pass kar denge, ham yahaa direct value bhi pass kar skte he
+
+2nd parameter -> filter ka name, jo bhi value hamne lagai he, uske according hame filter lagana hota he yaha par, to php ke andar hamare paas alag alag tarike ke filter aate he
+
+1. FILTER_VALIDATE_INT
+2. FILTER_VALIDATE_FLOAT
+3. FILTER_VALIDATE_BOOLEAN
+4. FILTER_VALIFATE_EMAIL
+5. FILTER_VALIFATE_URL
+6. FILTER_VALIFATE_IP
+7. FILTER_VALIFATE_MAC
+8. FILTER_VALIFATE_REGEXP
+
+3rd parameter -> options/flags, jo options hongi wo 2nd parameters pe depend karenge. int aaur float ke liye options alag honge, email - url wagera ke liye options alag honge...
+Flags ka basically matlab kya hota he ki, man lijiye ke ham yaha ek condition laga rahe he url ki, url jo he wo user ne dala he wo proper he ya nahi, ab aap usi ke saath ek aaur information get karna chahte he ki user ne saath me query string pass ki he ya nahi, to uske liye ham yaha flas use kar sakte he...
+
+---
+
 ### PHP Filter Functions
 
 1. filter_has_var()
@@ -40,11 +81,11 @@
 
 PHP Predefined Filter Constants
 
-INPUT_POST POST variables
-INPUT_GET GET variables
-INPUT_COOKIE COOKIE variables
-INPUT_ENV ENV variables
-INPUT_SERVER SERVER variables
+INPUT_POST -> POST variables
+INPUT_GET -> GET variables
+INPUT_COOKIE -> COOKIE variables
+INPUT_ENV -> ENV variables
+INPUT_SERVER -> SERVER variables
 FILTER_DEFAULT Do nothing, optionally strip/encode special characters. Equivalent to FILTER_UNSAFE_RAW
 FILTER_FLAG_NONE Allows no flags
 FILTER_FLAG_ALLOW_OCTAL Only for inputs that starts with a zero (0) as octal numbers. This only allows the succeeding digits to be 0-7
@@ -94,7 +135,7 @@ FILTER_CALLBACK Call a user-defined function to filter data
 
 how to use INPUT_POST in php
 
-In PHP, $\_POST is a superglobal variable that is used to collect data that is submitted through an HTML form using the HTTP POST method. You can use the INPUT_POST constant with the filter_input() function to access specific POST variables. Here's an example:
+In PHP, `$_POST` is a superglobal variable that is used to collect data that is submitted through an HTML form using the HTTP POST method. You can use the INPUT_POST constant with the filter_input() function to access specific POST variables. Here's an example:
 
 .php
 // Get the value of the 'username' input field

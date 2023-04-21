@@ -7,7 +7,7 @@ $sql = "SELECT * FROM students";
 $result = mysqli_query($conn, $sql) or die("Query Failed");
 
 // seconda parameter for numeric value
-// bydefault hame index array milta he
+// by default hame index array milta he
 $data = mysqli_fetch_all($result, MYSQLI_NUM);
 
 echo "<pre>";
