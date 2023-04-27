@@ -132,3 +132,9 @@ I always wanted to something extra-ordinary, and to do extra-ordinary you need e
 5. Date & Time
 6. Math
 7. Functions
+8. MySQL
+9. MySQL CRUD
+10. Forms
+11. JSON
+12. REST API
+13. OOP
