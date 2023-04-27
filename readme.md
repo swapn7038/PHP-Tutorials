@@ -138,3 +138,6 @@ I always wanted to something extra-ordinary, and to do extra-ordinary you need e
 11. JSON
 12. REST API
 13. OOP
+14. Ajax
+15. CMS - News Website Project
+16. File System Function's
