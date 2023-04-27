@@ -128,3 +128,7 @@ I always wanted to something extra-ordinary, and to do extra-ordinary you need e
 1. Array's
 2. String
 3. Basic Concepts
+4. Control Flow
+5. Date & Time
+6. Math
+7. Functions
