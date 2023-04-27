@@ -32,8 +32,9 @@ Means we write php code, upload it to a web server, and execute it with an intep
 
 Scope means working area. 
 
-
 Learn everything with in depth analysis. 
 
-
 Video 167 -> PHP Filter Validation in side YahooBaba/Functions/filter_validation
+
+27-04-23 
+( Understand the syllabus of php, 3rd year, BCS )
