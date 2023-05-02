@@ -13,7 +13,7 @@ Some doubts
 
 1. isset()
 2. include()
-3. use cases of $\_POST[]
+3. use cases of `$POST[]`
 4. mysqli_query()
 5. mysqli_num_rows()
 6. mysqli_fetch_assoc()

@@ -11,8 +11,21 @@ So after that I created PHP+array+1 & PHP+array+2 for arrays.
 
 ---
 
+###### Things need to improve / add
+
+1. Add program to access / print array with the help of for loop
+   Q 1. Access the elements of an array using the for loop.
+
 #### List of all Array functions
 
 ###### Functions I had written in notes
 
-1.
+• Definition of array
+• Indexed Array
+• Associative Array
+• Foreach loop
+•
+
+On 35th video of yahoo baba...
+
+array011.php complete...

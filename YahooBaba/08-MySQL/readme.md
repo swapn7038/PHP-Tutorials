@@ -361,8 +361,8 @@ This will show us the results which have age values of 18 and 21.
 4.  SELECT \* FROM personal
     WHERE city IN ("Delhi", "Bhopal");
     These will show the records which only have city values of delhi and bhopal.
-5.  SELECT \* FROM personal
-    WHERE id IN (1, 5, 8);
+5.  `SELECT * FROM personal
+WHERE id IN (1, 5, 8);`
 
 ## Learn MySQL 10 : MySQL Between Operators
 
@@ -656,9 +656,47 @@ INNER JOIN aakhir hota kya he -> agar ham do tables ka data nikalna chahte he to
 
 To inner join ka matlab hi yahi hota he ki do tables ke andar jo data match hota he wo wala record nikal ke lana. The INNER JOIN selects records that have matching values in both tabels.
 
-[put the image here]
+[!put the image here] [What is INNER JOIN?]
+
+Jab ham table 1 and table 2 ka common data nikalna chahte he to ham use karenge, inner join.
+The INNER JOIN selects records that have matching values in both tables.
+
+[!put the image here] [JOIN two Tables]
+
+Iith aaplykad don tables ahet, student table ani city table. City table madhlya Cid column la aapan primary key set karu... Ani student table madhalya City navachya column la Foreign Key manhun set karu...
+
+He foreign ani primary key kasa set karyacha te aapan pahile pahile aahe...
+
+Aata hya donhi tables madhe jo common data ahe aaplyala to access, kiva select karyacha ahe. Access kiva select cha meaning ha ahe ki aapan tyala hya particular query cha use karun tyala eka variable madhe store karto ani nantar tyala use karu shakto. Hya data la aaplya web page var show karu shakto, ekadha table banvu shakto...
+
+Aata aaplyaa donhi tables madhala common data kadhyala aapan INNER JOIN use karu...
+
+INNER JOIN sathi donhi tables madhe kahi tari match karav lagat, iith aapan student table madhalya foreign key column la city table madhalya primary key chya column sobat match karu...
+
+jith jith data match hoil tyancha common record bhetal aapyala... Ek city ahe Noida, tyachi id ahe 4, ji ki tith student table madhe exist nahi karat, mag to record nahi bhetnar.
+
+[!image INNER JOIN Syntax] [INNER JOIN Syntax]
+
+`SELECT columns from table1 INNER JOIN table2 ON table1.column_name = table2.column_name;`
+
+Practical of using inner join =>
+
+`select * from personal inner join city on personal.city = city.cid;`
+
+Iith aaplyala personal kiva city cha parat parat use karav nahi lagyacha tyasathi aapan aliases cha use karu,
+`select * from personal P inner join city C on P.city = C.cid;`
+
+`select P.id, P.name, P.percentage, P.gender, C.cityname from personal P inner join city C on P.city = C.cid;`
+
+// till 7 minutes I watch video properly after that I lose the concentration...
+
+ORDER BY ka chutiyapa
+
+Last tip -> aapan query madhe INNER JOIN chya aaivaji fakt JOIN pan lihu shakto...
 
 ## Learn MySQL 22 : LEFT JOIN & RIGHT JOIN
+
+Hya lecture madhe aapan mysql che 2 navin clause shiknar ahot, left and right join...
 
 ## Learn MySQL 23 : CROSS JOIN
 

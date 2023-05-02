@@ -20,11 +20,17 @@ echo $colors[0]. "<br>";
 
 // Simply putting an square bracket's we cak add multiple values in the array. 
 
-// We cannot put souble quotes for taking values, 
+// We cannot put double quotes for taking values, 
 // because double inverted quotes will make values in string. 
+// Ex : $var = "10, 20, 30"; this is string
 
 // And in php we can add multiple types of data in an array. 
 // Ex : We can take float, string, integer and other data types in single array.
+
+// Elements la access karnyasathi aaplya kade, index astat, jya prakare aaplya class madhe pratek 
+// student kad roll number astat, tasach array madhalya elements la ek ek indes assign zalela asto.
+// Indexing starts from 0
+
 
 // We took $colors array here. and with $colors[0] statement we can access the first element of an array. 
 

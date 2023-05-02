@@ -141,3 +141,31 @@ I always wanted to something extra-ordinary, and to do extra-ordinary you need e
 14. Ajax
 15. CMS - News Website Project
 16. File System Function's
+
+### 6. Math
+
+1. max()
+2. min()
+3. ceil()
+4. floor()
+5. round()
+6. abs()
+7. intdiv()
+8. pow()
+9. sqrt()
+10. rand()
+11. mt_rand()
+12. lcg_value()
+13.
+
+### 7. Functions Detail View
+
+01 -> Cookies
+02 -> Files
+03 -> filter_functions
+04 -> is_functions
+05 -> session
+06 => Misc
+• 01 -> phpinfo()
+
+### 16. File system Function's Detail View
