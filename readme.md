@@ -4,7 +4,7 @@ ctrl + f5 to remove all caching of form
 
 More than 150 video completed.
 
-Completef half of mySql videos.
+Completed half of mySql videos.
 
 Started news website project.
 
@@ -44,5 +44,133 @@ Doubts
 
 ---
 
+<<<<<<< HEAD
 Reference Links
 https://www.studentstutorial.com/php/google-map-dynamically.php
+=======
+I user this command to install/clone this repository.
+git clone https://github.com/swapn7038/PHP-Tutorials.git
+
+Reference Links
+https://www.studentstutorial.com/php/google-map-dynamically.php
+
+https://stackoverflow.com/questions/26825579/mysql-says-cannot-connect-invalid-settings
+https://stackoverflow.com/questions/18022809/how-to-solve-error-mysql-shutdown-unexpectedly
+
+If even after MySQL is working, from control panel, then also if phpMyAdmin is not working then visit this website ->
+https://tutorialdeep.com/knowhow/mysql-cannot-connect-invalid-settings-xamp/
+
+27-04-23
+SEM - V : Beginners Programming with PHP
+
+Unit - 1:
+• Introduction to PHP -> What is php, why php, evolution of php.
+• Installation -> PHP on windows and Linux
+• Configuration -> Apache & PHP,
+• Running & Testing php scripts
+• Combining php with html
+• PHP basics -> Building Blocks -> variable, data types, operators and expressions and constant
+• Decision within php -> if, if...else, if..elseif, else, switchm ternary operator
+
+Unit - 2:
+• Looping within php -> while, do...while, for, break & Continue statement
+• Functions in php -> what is function, why functions, calling function, returning value from function, recursive function
+• Array in php -> What & why array, creating array, assiciative array, multidimensional array, accessing array, manipulation array, sorting arrays, merging arrays
+
+Unit - 3:
+Objects in php -> What is class & object, creating a Class & Object, object properties, object methods, overloading, inheritance, Constructor and Destructor
+• String in php -> Creating and accessing string, formatting string, searching string, manipulationg string
+• Date and Time -> Understanding TimeStamp, Getting Date and Time, Extracting values of date-time, Formatting date-time
+
+Reference =>
+
+1. Begging php 5.3 || Author -> Matt Doyle, Wiley Publishing
+2. SAMS Teach yourself php in 24 hours || Author -> Matt Zandstra, Sams publishing
+3. PHP, mysql and apache all in one || Author -> Juliea C. Meloni, SAMS series
+
+SEM - VI
+
+Unit - 1
+• Handling html forms in php, creating html form, capture data sent
+• Handling : Empty form data, multi value fields, validating form data, difference between get and post, global and environment variable, genetating web-form in php, create multi-step form, hidden fleids, redirection the user
+
+Unit - 2
+• Cookies and user sessions in PHP -> state and stateless webpage
+Cookies -> Anatomy of cookies, setting a cookie with php, deleting a cookie, creating session cookies
+• QueryString -> Working with querystring
+• Session -> using php session to store data
+• Creating a session
+• Reading & writing session data
+• Destroying a session
+• Create a user login system
+
+Unit -3
+• Introducting database and sql
+• Basics of mysql
+• connecting to the database server
+• Creating database
+• Creating table
+• Retrieving data -> limit the number of results returned, order and group results, query multiple table at once, use various mysql functions and other features to build more flexible queries
+• Manipulating data from sql with php -> Inserting new records into tables using INSERT statements, changing field values within records with UPDATE statements, deleting records using delete statements
+
+I always wanted to something extra-ordinary, and to do extra-ordinary you need extra-ordinary skills.
+
+---
+
+### How to learn anything ?
+
+1. Make a structure of topics
+2. Always study in that manner
+3. Revise in same manner
+4. I need to create structure in my memory, so that I can acces it easily
+5. If someone tells, asks or even you hear about the topic name, you should be able to go to that topic in mind and access the topic...
+
+---
+
+### Topics -> Index
+
+1. Array's
+2. String
+3. Basic Concepts
+4. Control Flow
+5. Date & Time
+6. Math
+7. Functions
+8. MySQL
+9. MySQL CRUD
+10. Forms
+11. JSON
+12. REST API
+13. OOP
+14. Ajax
+15. CMS - News Website Project
+16. File System Function's
+
+### 6. Math
+
+1. max()
+2. min()
+3. ceil()
+4. floor()
+5. round()
+6. abs()
+7. intdiv()
+8. pow()
+9. sqrt()
+10. rand()
+11. mt_rand()
+12. lcg_value()
+13.
+
+### 7. Functions Detail View
+
+01 -> Cookies
+02 -> Files
+03 -> filter_functions
+04 -> is_functions
+05 -> session
+06 => Misc
+• 01 -> phpinfo()
+
+### 16. File system Function's Detail View
+>>>>>>> d945b9794d1f3aad4e37a615f6f550690229dddc

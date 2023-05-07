@@ -13,7 +13,7 @@ Some doubts
 
 1. isset()
 2. include()
-3. use cases of $\_POST[]
+3. use cases of `$POST[]`
 4. mysqli_query()
 5. mysqli_num_rows()
 6. mysqli_fetch_assoc()
@@ -23,11 +23,18 @@ Some doubts
 
 ---
 
+01-04-23
+
+Learn constructor
+
 PHP is interpreted server-side scripting language. 
 Means we write php code, upload it to a web server, and execute it with an intepreter. 
 
 Scope means working area. 
 
-
 Learn everything with in depth analysis. 
 
+Video 167 -> PHP Filter Validation in side YahooBaba/Functions/filter_validation
+
+27-04-23 
+( Understand the syllabus of php, 3rd year, BCS )
