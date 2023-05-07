@@ -41,3 +41,8 @@ Doubts
 
 1. session_start()
 2. mysqli_real_escape_string()
+
+---
+
+Reference Links
+https://www.studentstutorial.com/php/google-map-dynamically.php
