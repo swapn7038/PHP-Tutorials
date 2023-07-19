@@ -1,5 +1,5 @@
 <?php
-
+// program -1 
 echo "<h1> PHP program to calculate simple interest </h1>";
 
 $simple_interest = 0;
